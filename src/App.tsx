@@ -1,12 +1,14 @@
 import React, { FC } from "react";
-import { Button } from "antd";
-import "antd/dist/antd.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./layout";
 
 const App: FC = () => {
   return (
-    <div className="App">
-      <Button type="primary">Button</Button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 
