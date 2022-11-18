@@ -1,8 +1,12 @@
 import React, { FC } from "react";
-import "@/styles/layout.scss";
+import Navbar from "./Navbar";
 
 const Layout: FC = () => {
-  return <div>hi</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default Layout;
