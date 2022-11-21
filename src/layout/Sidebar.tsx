@@ -60,7 +60,7 @@ const Sidebar: React.FC = () => {
   };
 
   return (
-    <div style={{ width: 256 }}>
+    <div className="content-sidebar" style={{ background: `#041527` }}>
       <Button
         type="primary"
         onClick={toggleCollapsed}

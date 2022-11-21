@@ -1,3 +1,16 @@
-div {
-  border: 1px solid red;
+.main-wrapper {
+  height: 100vh;
+
+  > .main-nav {
+    flex: 1;
+  }
+  > .main-content {
+    height: 100%;
+    display: flex;
+    
+    > .content-solt {
+      flex: 1;
+      padding: 1em;
+    }
+  }
 }
