@@ -1,13 +1,13 @@
 .main-wrapper {
   height: 100vh;
-
-  > .main-nav {
-    flex: 1;
-  }
+  display: flex;
+ 
   > .main-content {
     height: 100%;
     display: flex;
-    
+    flex: 1;
+    flex-direction: column;
+
     > .content-solt {
       flex: 1;
       padding: 1em;
